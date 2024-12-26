@@ -1,0 +1,113 @@
+
+
+/*front link*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@400;700&display=swap');
+
+/* common start */
+body{
+	font-family: "PT Sans", serif;
+  font-weight: 400;
+  front-size:16px;
+  color: #898989;
+}
+
+
+/* common end */
+/* header start */
+header{
+background-color: #fcdb00;
+padding: 20px 0;
+}
+.c_nav{
+
+}
+
+.logo{
+
+}
+.menu{
+
+}
+.menu ul li a{
+	front-size: 22px;
+    font-weight: 700;
+    color: #010101!important;
+    padding: 0 30px!important;
+}
+.menu ul li:last-child a{
+padding-right: 0!important;
+}
+.menu ul li a:hover{
+color: white!important;
+}
+/* header end */
+/* slider start */
+.slider{
+background-color: #fcdb00;
+padding-bottom: 100px;
+}
+
+  .c_ind {
+    
+    bottom: -80px;
+    
+}    
+
+.c_ind [data-bs-target] {
+width: 15px;
+height: 15px;
+border-radius: 50%;
+    
+} 
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+
+
+.s_text{
+margin-top: 50px;
+}
+.s_text h1{
+front-size: 32px;
+font-weight: 700;
+color: #010101;
+}
+.s_text h2{
+	margin: 20px 0;
+front-size: 20px;
+font-weight: 400;
+color: #313841;
+}
+.s_text p{
+ margin-bottom: 35px;
+ color: #555555;
+}
+.s_icon{
+
+}
+.s_icon ul li{
+margin-right: 30px !important;
+}
+.s_icon ul li i{
+front-size: 42px;
+color: #010101;
+transition: .3s;
+
+}
+.s_icon ul li i :hover{
+transform : scale(1.5);
+
+
+}
+.s_img{
+
+}
+.s-img img{
+
+}
+
+
+
+
+/* slider end */
